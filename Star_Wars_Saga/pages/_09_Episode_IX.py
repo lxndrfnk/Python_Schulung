@@ -5,7 +5,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
     <div style="display: flex; justify-content: left;">
-        <img src="https://cdn.moviepilot.de/files/bf02faec74bce8d92c6f37efb28185ce5058ac17e10245ae8abd679cc75e/copyright/19685181.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg"
+        <img src="https://i.ebayimg.com/images/g/TCAAAOSwo1Bk4LDf/s-l400.jpg"
              style="border: 4px solid #FFD700; border-radius: 10px; width: 300px;">
     </div>
     """,
@@ -13,11 +13,11 @@ with col1:
 )
 
 with col2:
-    st.header("""Star Wars - Der Angriff der Klonkrieger""")
-    st.caption("2002 | 142 Minuten | FSK 12")
+    st.header("""Star Wars - Die dunkle Bedrohung""")
+    st.caption("1999 | 136 Minuten | FSK 6")
     st.markdown("""
     <div style="text-align: left;">
-        <a href="https://www.disneyplus.com/de-de/browse/entity-39cbdf17-1bbe-4de2-b4a4-8e342875c2c6" target="_blank">
+        <a href="https://www.disneyplus.com/de-de/browse/entity-e0a9fee4-2959-4077-ad8c-8fab4fd6e4d1" target="_blank">
             <button style="
                 background-color: gold;
                 color: black;
@@ -35,7 +35,7 @@ with col2:
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.write("Star Wars: Episode II – Angriff der Klonkrieger (Originaltitel Star Wars: Episode II – Attack of the Clones) ist ein US-amerikanischer Science-Fiction-Film aus dem Jahr 2002 und der zweite Teil der Star-Wars-Saga. Regie führte George Lucas und die Hauptrollen sind mit Hayden Christensen, Ewan McGregor, Christopher Lee und Natalie Portman besetzt. 2005 folgte die Fortsetzung Star Wars: Episode III – Die Rache der Sith. Der Film startete am 16. Mai 2002 in den deutschen Kinos.")
+st.write("Star Wars: Episode I – Die dunkle Bedrohung (Originaltitel Star Wars: Episode I – The Phantom Menace) ist ein US-amerikanischer Science-Fiction-Film aus dem Jahr 1999 und der erste Teil der Prequel-Trilogie, welche die Vorgeschichte der Star-Wars-Filme (1977–1983) erzählt. Die weiteren Filme sind Star Wars: Episode II – Angriff der Klonkrieger (2002) und Star Wars: Episode III – Die Rache der Sith (2005). Der Film startete am 19. August 1999 in den deutschen Kinos. Im Jahr 2012 erschien er in 3D konvertiert erneut weltweit in den Kinos.")
             
 # ---------- Sidebar ----------
 
@@ -43,22 +43,22 @@ with st.sidebar:
         st.markdown("""
         <h1 style='font-size: 30px;'>📈 Ratings</h1>
         """, unsafe_allow_html=True)
-        st.metric(label = "iMDb", value = "6.6/10")
+        st.metric(label = "iMDb", value = "6.5/10")
         st.metric(label = "Moviepilot", value = "6.7/10")
-        st.metric(label = "Filmstarts", value = "3.7/5")
+        st.metric(label = "Filmstarts", value = "3.4/5")
         st.markdown("---")
         st.header("🔗 Links")
         st.markdown("""
-        * [Wikipedia](https://de.wikipedia.org/wiki/Star_Wars:_Episode_II_-_Angriff_der_Klonkrieger)  
-        * [iMDb](https://www.imdb.com/de/title/tt0121765/)
+        * [Wikipedia](https://de.wikipedia.org/wiki/Star_Wars:_Episode_I_-_Die_dunkle_Bedrohung)  
+        * [iMDb](https://www.imdb.com/de/title/tt0120915/)
         """)
 
-tab1, tab2, tab3, tab4 = st.tabs(["Stab", "Besetzung", "Chronologie", "Einspielergebnis"])
+tab1, tab2, tab3 = st.tabs(["Stab", "Besetzung", "Chronologie"])
 
 
 with tab1:
     st.markdown("""
-- **Regie**: George Lucas, Jonathan Hales  
+- **Regie**: George Lucas  
 - **Drehbuch**: George Lucas
 - **Produktion**: Rick McCallum
 - **Musik**: John Williams
@@ -68,21 +68,21 @@ with tab1:
 
 with tab2:
     st.markdown("""
-- **Hayden Christensen:**: Anakin Skywalker
+- **Liam Neeson:**: Qui-Gon Jinn
 - **Ewan McGregor**: Obi-Wan Kenobi
 - **Natalie Portman**: Königin Padmé Amidala
-- **Christopher Lee**: Count Dooku/Darth Tyranus
-- **Samuel L. Jackson**: Mace Windu
+- **Jake Lloyd**: Anakin Skywalker
+- **Pernilla August**: Shmi Skywalker
 - **Frank Oz**: Yoda
 - **Ian McDiarmid**: Senator Sheev Palpatine/Darth Sidious
-- **Pernilla August**: Shmi Skywalker-Lars
+- **Ray Park**: Darth Maul
 """)
 
 with tab3:
    st.markdown("""
 <ul>
-    <li><strong>Episode I</strong>: Die dunkle Bedrohung</span></li>
-    <li><span style='color:gold;'><strong>Episode II</strong>: Angriff der Klonkrieger</span></li>
+    <li><span style='color:gold;'><strong>Episode I</strong>: Die dunkle Bedrohung</span></li>
+    <li><strong>Episode II</strong>: Angriff der Klonkrieger</span></li>
     <li><strong>Episode III</strong>: Die Rache der Sith</span></li>
     <li><strong>Episode IV</strong>: Krieg der Sterne</span></li>
     <li><strong>Episode V</strong>: Das Imperium schlägt zurück</span></li>
@@ -93,14 +93,11 @@ with tab3:
 </ul>
 """, unsafe_allow_html=True)
    
-with tab4:
-    st.markdown("""
-649 Mio. US-Dollar
-""")
-   
 st.markdown("---")
    
-with st.expander("Oscarverleihung 2003"):
+with st.expander("Oscarverleihung 2000"):
     st.markdown("""
-- Nominierung in der Kategorie Beste visuelle Effekte
+- Nominierung in der Kategorie bester Ton  
+- Nominierung in der Kategorie bester Tonschnitt 
+- Nominierung in der Kategorie beste Spezialeffekte
 """)

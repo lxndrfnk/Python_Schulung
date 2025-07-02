@@ -53,7 +53,7 @@ with st.sidebar:
         * [iMDb](https://www.imdb.com/de/title/tt0121766/)
         """)
 
-tab1, tab2, tab3 = st.tabs(["Stab", "Besetzung", "Chronologie"])
+tab1, tab2, tab3, tab4 = st.tabs(["Stab", "Besetzung", "Chronologie", "Einspielergebnis"])
 
 
 with tab1:
@@ -92,6 +92,11 @@ with tab3:
     <li><strong>Episode IX</strong>: Der Aufstieg Skywalkers</span></li>
 </ul>
 """, unsafe_allow_html=True)
+
+with tab4:
+    st.markdown("""
+905 Mio. US-Dollar
+""")
    
 st.markdown("---")
    
