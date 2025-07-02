@@ -4,8 +4,8 @@ port = 8501
 enableCORS = false
 
 [theme]
-primaryColor = "#1f77b4"
-backgroundColor = "#f0f0f5"
-secondaryBackgroundColor = "#e0e0ef"
-textColor = "#000000"
-font = "sans serif"
+primaryColor = "#ffe81f"  # Gelb – wie der Star Wars Text "A long time ago..."
+backgroundColor = "#000000"  # Schwarz – tiefer Weltraum
+secondaryBackgroundColor = "#1c1c1c"  # Dunkelgrau – z. B. Raumschiff-Elemente
+textColor = "#ffffff"  # Weiß – starke Lesbarkeit im Dunkeln
+font = "monospace"
