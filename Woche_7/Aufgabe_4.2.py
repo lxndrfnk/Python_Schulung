@@ -73,3 +73,19 @@ if ausgewaehlte_teams:
         st.info("Keine Daten für die gewählte Kombination aus Team(s) und Zeitraum.")
 else:
     st.info("Bitte wähle mindestens ein Team aus, um die Trendanalyse zu starten.")
+
+import streamlit as st
+import os
+
+st.write("📂 Aktuelles Verzeichnis:", os.getcwd())
+st.write("📄 Dateien im Verzeichnis:", os.listdir())
+
+# Versuche, die Datei zu laden
+try:
+    import pandas as pd
+    df = pd.read_csv("teams.csv")
+    st.dataframe(df.head())
+except FileNotFoundError:
+    st.error("❌ Datei 'teams.csv' wurde nicht gefunden!")
+except Exception as e:
+    st.error(f"Ein anderer Fehler ist aufgetreten: {e}")
