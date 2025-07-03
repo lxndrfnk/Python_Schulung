@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Daten laden
-df = pd.read_csv("teams.csv")
+df = pd.read_csv("dashboards/teams.csv")
 
 st.title("NHL Teams")
 
