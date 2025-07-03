@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Daten laden
-df = pd.read_csv("teams.csv")
+df = pd.read_csv("Woche_7/teams.csv")
 
 st.title("NHL Teams")
 
