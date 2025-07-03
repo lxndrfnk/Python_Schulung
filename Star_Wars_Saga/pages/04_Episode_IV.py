@@ -60,31 +60,31 @@ with tab1:
     st.markdown("""
 - **Regie**: George Lucas  
 - **Drehbuch**: George Lucas
-- **Produktion**: Rick McCallum
+- **Produktion**: Gary Kurtz
 - **Musik**: John Williams
-- **Kamera**: David Tattersall
-- **Schnitt**: Ben Burtt, Paul Martin Smith
+- **Kamera**: Gilbert Taylor
+- **Schnitt**: Paul Hirsch, Marcia Lucas, Richard Chew
 """)
 
 with tab2:
     st.markdown("""
-- **Liam Neeson:**: Qui-Gon Jinn
-- **Ewan McGregor**: Obi-Wan Kenobi
-- **Natalie Portman**: Königin Padmé Amidala
-- **Jake Lloyd**: Anakin Skywalker
-- **Pernilla August**: Shmi Skywalker
-- **Frank Oz**: Yoda
-- **Ian McDiarmid**: Senator Sheev Palpatine/Darth Sidious
-- **Ray Park**: Darth Maul
+- **Mark Hamill**: Luke Skywalker
+- **Harrison Ford**: Han Solo
+- **Carrie Fisher**: Prinzessin Leia Organa
+- **Alec Guiness**: Obi-Wan „Ben“ Kenobi
+- **David Prowse**: Darth Vader
+- **Anthony Daniels**: C-3PO
+- **Kenny Baker**: R2-D2
+- **Peter Mayhew**: Chewbacca
 """)
 
 with tab3:
    st.markdown("""
 <ul>
-    <li><span style='color:gold;'><strong>Episode I</strong>: Die dunkle Bedrohung</span></li>
+    <li><strong>Episode I</strong>: Die dunkle Bedrohung</span></li>
     <li><strong>Episode II</strong>: Angriff der Klonkrieger</span></li>
     <li><strong>Episode III</strong>: Die Rache der Sith</span></li>
-    <li><strong>Episode IV</strong>: Krieg der Sterne</span></li>
+    <li><span style='color:gold;'><strong>Episode IV</strong>: Krieg der Sterne</span></li>
     <li><strong>Episode V</strong>: Das Imperium schlägt zurück</span></li>
     <li><strong>Episode VI</strong>: Die Rückkehr der Jedi-Ritter</span></li>
     <li><strong>Episode VII</strong>: Das Erwachen der Macht</span></li>
@@ -100,9 +100,12 @@ with tab4:
    
 st.markdown("---")
    
-with st.expander("Oscarverleihung 2000"):
+with st.expander("Oscarverleihung 1978"):
     st.markdown("""
-- Nominierung in der Kategorie bester Ton  
-- Nominierung in der Kategorie bester Tonschnitt 
-- Nominierung in der Kategorie beste Spezialeffekte
+- Auszeichnung in der Kategorie bester Ton  
+- Auszeichnung in der Kategorie bester Schnitt
+- Auszeichnung in der Kategorie beste visuelle Effekte
+- Auszeichnung in der Kategorie beste Filmmusik
+- Auszeichnung in der Kategorie bestes Szenenbild
+- Auszeichnung in der Kategorie bestes Kostümdesign
 """)
