@@ -49,7 +49,7 @@ st.header("Trendanalyse als Liniendiagramm")
 # Metrik-Auswahl
 metriken_mapping = {
     "Erzielte Tore (GF)": "GF",
-    "Kassierte Tore (AF)": "AF",   # ggf. "AF" → "GA" prüfen
+    "Kassierte Tore (AF)": "GA",   # ggf. "AF" → "GA" prüfen
     "Siege": "Siege",
     "Niederlagen": "Niederlagen"
 }
