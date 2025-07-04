@@ -74,9 +74,3 @@ if ausgewaehlte_teams:
 else:
     st.info("Bitte wähle mindestens ein Team aus, um die Trendanalyse zu starten.")
 
-import streamlit as st
-import os
-
-st.write("📂 Aktuelles Verzeichnis:", os.getcwd())
-st.write("📄 Dateien im Verzeichnis:", os.listdir())
-
